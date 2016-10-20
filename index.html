@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <title>Which Simpsons Character Are You?</title>
+  </head>
+  <body>
+    <h1>Find out which Simpsons character you are?</h1>
+    <form id="simpsons">
+      <label>What is your favorite activity?</label>
+      <select class="form-control" id="activity">
+        <option value=100>select</option>
+        <option value=1>lazing around</option>
+        <option value="2">house chore</option>
+        <option value="3">skateboarding</option>
+        <option value="4">studying</option>
+      </select><br>
+      <label>What kind of student were you?</label>
+      <select class="form-control" id="student">
+        <option value=100>select</option>
+        <option value=1>a total loser</option>
+        <option value="2">a teacher's pet</option>
+        <option value="3">a rebel</option>
+        <option value="4">a nerd</option>
+      </select><br>
+      <label>Choose a word you like the most:</label>
+      <select class="form-control" id="word">
+        <option value=100>select</option>
+        <option value=1>dounut</option>
+        <option value="2">perm</option>
+        <option value="3">evil</option>
+        <option value="4">saxophone</option>
+      </select><br>
+      <div class="form-group has-error">
+      <button type="submit" class="btn">Find Out!</button>
+    </form>
+    <div class="answer">
+      <h2>You <span class=output><span></h2>
+    </div>
+  </body>
+</html>
